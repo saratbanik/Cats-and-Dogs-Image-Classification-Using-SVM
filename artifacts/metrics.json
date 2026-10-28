@@ -1,0 +1,48 @@
+{
+  "training_images": 12000,
+  "validation_images": 2400,
+  "unreadable_images": 0,
+  "accuracy": 0.6770833333333334,
+  "f1_score_dog": 0.6835443037974683,
+  "confusion_matrix": [
+    [
+      788,
+      412
+    ],
+    [
+      363,
+      837
+    ]
+  ],
+  "classification_report": {
+    "Cat": {
+      "precision": 0.684622067767159,
+      "recall": 0.6566666666666666,
+      "f1-score": 0.6703530412590387,
+      "support": 1200.0
+    },
+    "Dog": {
+      "precision": 0.6701361088871097,
+      "recall": 0.6975,
+      "f1-score": 0.6835443037974683,
+      "support": 1200.0
+    },
+    "accuracy": 0.6770833333333334,
+    "macro avg": {
+      "precision": 0.6773790883271343,
+      "recall": 0.6770833333333333,
+      "f1-score": 0.6769486725282535,
+      "support": 2400.0
+    },
+    "weighted avg": {
+      "precision": 0.6773790883271343,
+      "recall": 0.6770833333333334,
+      "f1-score": 0.6769486725282535,
+      "support": 2400.0
+    }
+  },
+  "feature_method": "HOG",
+  "classifier": "Calibrated LinearSVC",
+  "image_size": "64x64 grayscale",
+  "random_state": 42
+}

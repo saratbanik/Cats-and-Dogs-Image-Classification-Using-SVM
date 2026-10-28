@@ -1,20 +1,28 @@
-
-# Python environment and cache
-.venv/
-venv/
+# Python cache
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 
-# Secrets and temporary files
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
 .env
-*.log
+.env.*
+
+# IDE and operating system files
+.vscode/
 .DS_Store
+Thumbs.db
 
-# Raw Kaggle image dataset
-data/raw/*
-!data/raw/.gitkeep
+# Test and coverage cache
+.pytest_cache/
+.coverage
 
-# Generated models, metrics, charts, and predictions
-artifacts/*
-!artifacts/.gitkeep
+
+# Dataset files
+data/raw/
+
+# Generated model artifacts
+artifacts/*.joblib
+artifacts/*.pkl
