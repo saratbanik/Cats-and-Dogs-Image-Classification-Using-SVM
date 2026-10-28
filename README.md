@@ -168,8 +168,10 @@ HOG with a Linear SVM is a classical computer-vision baseline. Its performance d
 
 Validation metrics do not guarantee the same performance on unseen real-world images.
 
-## Author
+---
 
-**SARAT BANIK**
+<div align="center">
 
-[LinkedIn Profile](https://www.linkedin.com/in/saratbanik)
+**Developed by [SARAT BANIK](https://www.linkedin.com/in/saratbanik)**
+
+</div>
