@@ -1,0 +1,20 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and temporary files
+.env
+*.log
+.DS_Store
+
+# Raw Kaggle image dataset
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated models, metrics, charts, and predictions
+artifacts/*
+!artifacts/.gitkeep
